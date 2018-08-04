@@ -1,0 +1,42 @@
+<!-- Program for a penguin-yeti between 2 players -->
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Penguin-Yeti</title>
+	
+	<!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!--styles-->
+	<link href="css/style.css" rel="stylesheet">
+
+
+<body>
+  <header>Save the Penguins from the Yeti </header>
+  <br><br>
+  <div class="container1">
+    <button onclick="instructions()" >Instructions</button>
+    <button onclick="startGame()">Start New Game</button>
+  </div>
+  
+  <div class="container" id="game">
+  	   <div class="row">
+	        <h1 id="gameOver"></h1>
+	   		<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod1" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div>
+			<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod2" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div>
+			<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod3" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div>
+			<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod4" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div>
+			<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod5" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div>
+			<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod6" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div>
+			<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod7" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div>
+			<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod8" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div>
+			<div class="col-lg-4 col-sm-6 col-xs-12"><img id="pod9" class="pod" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="checkPod(this)" alt="mound"></div> 		
+  	   </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+  	
+</body>
+</html>
